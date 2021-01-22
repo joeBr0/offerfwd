@@ -32,12 +32,12 @@ function offerfwd_joix(){
 
 ob_start();
 
-$jurl = esc_attr(sanitize_text_field($_REQUEST['jurl']));
-$email = esc_attr(sanitize_email($_REQUEST['email']));
-$fname = esc_attr(sanitize_text_field($_REQUEST['fname']));
-$lname = esc_attr(sanitize_text_field($_REQUEST['lname']));
-$hphone = esc_attr(sanitize_text_field($_REQUEST['hphone']));
-$pid = esc_attr(sanitize_text_field($_REQUEST['pid']));
+$jurl = sanitize_text_field($_REQUEST['jurl']);
+$email = sanitize_email($_REQUEST['email']);
+$fname = sanitize_text_field($_REQUEST['fname']);
+$lname = sanitize_text_field($_REQUEST['lname']);
+$hphone = sanitize_text_field($_REQUEST['hphone']);
+$pid = sanitize_text_field($_REQUEST['pid']);
 
 
 $src_url = "'https://adfwd.com/oi/joix.php?jurl=".$jurl."&email=".$email."&fname=".$fname."&lname=".$lname."&hphone=".$hphone."&pid=".$pid."'";
