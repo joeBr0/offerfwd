@@ -15,9 +15,9 @@ The Offerfwd plugin enables you to add opt-in offers from your partners to your 
 
 With the Connections platform you will be able to create a unique placement which you will add your partner offers to. The placement is then populated into the plugin's iframe on the page(s) where you want the opt-in offers to be displayed.
 
-The Connections platform (conx.opt-in.net) is owned and operated by Opt-Intelligence. The privacy policy for the Connections platfrom can be found at: https://www.opt-intelligence.com/privacy-policy/
+The Connections platform (conx.opt-in.net) is owned and operated by Opt-Intelligence. The privacy policy for the Connections platform can be found at: https://www.opt-intelligence.com/privacy-policy/
 
-The URL which is called within the iframe is adfwd.com, also owned and operated by Opt-Intelligence. The privacy policy for the Connections platfrom can also be found at: https://www.opt-intelligence.com/privacy-policy/
+The URL which is called within the iframe is adfwd.com, also owned and operated by Opt-Intelligence. The privacy policy for the Connections platform can also be found at: https://www.opt-intelligence.com/privacy-policy/
 
 For each user who visits the page(s) where you have the plugin shortcode integrated, this plugin reaches out to Opt-Intelligence, with non-personally identifiable and/or one-way hashed information which you populate into the adfwd.com URL, if any, and Opt-Intelligence then returns the relevant offers which you have added and designated to the Connections platform.
 
